@@ -1,0 +1,1992 @@
+2025-02-19 23:22:00,282: INFO: services.background_task: BACKGROUND TASK STARTED
+2025-02-19 23:22:00,547: INFO: services.background_task: starting amount 8894.847375503954
+2025-02-19 23:22:32,150: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:32,416: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:32,698: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:33,049: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:33,320: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:33,621: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:33,884: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:34,093: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:34,327: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:34,563: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:34,808: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:35,053: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:35,274: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:35,487: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:35,668: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:35,888: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:36,060: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:36,244: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:36,460: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:36,460: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:22:36,460: INFO: services.background_task: 1.0018244160372212
+2025-02-19 23:22:36,693: INFO: constants.dcx_contexts: response -> {'code': 400, 'message': 'BTC precision should be 5', 'status': 'error'}
+2025-02-19 23:22:37,033: INFO: constants.dcx_contexts: response -> {'orders': [{'id': '4ea8a7aa-eeea-11ef-8c0c-6f9bbdef106c', 'client_order_id': None, 'order_type': 'market_order', 'side': 'buy', 'status': 'open', 'fee_amount': 0.0, 'fee': 0.59, 'maker_fee': 0.59, 'taker_fee': 0.59, 'total_quantity': 0.00011, 'remaining_quantity': 0.00011, 'source': 'web', 'base_currency_name': None, 'target_currency_name': None, 'base_currency_short_name': None, 'target_currency_short_name': None, 'base_currency_precision': None, 'target_currency_precision': None, 'avg_price': 0.0, 'price_per_unit': 8722999.94, 'stop_price': 0.0, 'market': 'BTCINR', 'time_in_force': 'good_till_cancel', 'created_at': 1739987558000, 'updated_at': 1739987558000, 'trades': None}]}
+2025-02-19 23:22:37,033: INFO: services.background_task: actual buy for BTCINR
+2025-02-19 23:22:37,223: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:37,407: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:37,618: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:37,808: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:38,127: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:38,492: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:38,667: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:38,919: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:39,128: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:39,325: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:39,514: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:39,702: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:39,877: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:40,084: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:40,248: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:40,414: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:40,588: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:40,766: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:41,011: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:41,252: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:41,443: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:41,626: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:41,825: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:42,025: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:42,215: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:42,481: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:43,014: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:22:43,411: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8688758.1
+2025-02-19 23:22:43,411: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:22:43,411: INFO: models.position: current : 0.01
+2025-02-19 23:22:43,411: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:23:14,339: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:14,522: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:14,742: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:14,954: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:15,181: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:15,363: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:15,572: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:15,763: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:15,984: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:16,170: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:16,348: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:16,536: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:16,723: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:16,934: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:17,114: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:17,299: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:17,476: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:17,653: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:18,044: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:18,045: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:23:18,045: INFO: services.background_task: 1.0016453669631915
+2025-02-19 23:23:18,258: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:18,441: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:18,633: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:19,274: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:19,520: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:19,701: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:19,922: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:20,102: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:20,275: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:20,452: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:20,613: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:20,807: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:20,986: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:21,160: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:21,360: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:21,594: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:21,779: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:21,999: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:22,184: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:22,447: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:22,634: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:22,825: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:23,021: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:23,207: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:23,386: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:23,570: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:23,570: INFO: services.background_task: arbitrage for XRP TRX
+2025-02-19 23:23:23,570: INFO: services.background_task: 1.0021084608460846
+2025-02-19 23:23:23,844: INFO: constants.dcx_contexts: response -> {'code': 400, 'message': 'TRX precision should be 0', 'status': 'error'}
+2025-02-19 23:23:24,243: INFO: constants.dcx_contexts: response -> {'orders': [{'id': '6ac86b6e-eeea-11ef-bd96-5b51c4d1665c', 'client_order_id': None, 'order_type': 'market_order', 'side': 'buy', 'status': 'open', 'fee_amount': 0.0, 'fee': 0.59, 'maker_fee': 0.59, 'taker_fee': 0.59, 'total_quantity': 44.0, 'remaining_quantity': 44.0, 'source': 'web', 'base_currency_name': None, 'target_currency_name': None, 'base_currency_short_name': None, 'target_currency_short_name': None, 'base_currency_precision': None, 'target_currency_precision': None, 'avg_price': 0.0, 'price_per_unit': 22.22, 'stop_price': 0.0, 'market': 'TRXINR', 'time_in_force': 'good_till_cancel', 'created_at': 1739987605000, 'updated_at': 1739987605000, 'trades': None}]}
+2025-02-19 23:23:24,244: INFO: services.background_task: actual buy for TRXINR
+2025-02-19 23:23:24,468: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:24,801: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8672699.19
+2025-02-19 23:23:24,801: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:23:24,801: INFO: models.position: current : 0.01
+2025-02-19 23:23:24,801: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:23:24,993: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.01
+2025-02-19 23:23:24,993: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:23:24,993: INFO: models.position: current : 0.01
+2025-02-19 23:23:24,993: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:23:56,090: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:56,316: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:56,499: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:56,671: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:56,931: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:57,209: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:57,409: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:57,590: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:57,769: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:57,950: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:58,142: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:58,309: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:58,493: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:58,708: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:58,949: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:59,113: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:59,323: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:59,544: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:59,729: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:23:59,729: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:23:59,729: INFO: services.background_task: 1.001947682423189
+2025-02-19 23:23:59,934: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:00,111: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:00,309: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:00,494: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:00,674: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:00,955: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:01,170: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:01,336: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:01,549: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:01,737: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:01,951: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:02,148: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:02,355: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:02,533: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:02,732: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:02,955: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:03,146: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:03,319: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:03,492: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:03,691: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:03,892: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:04,104: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:04,275: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:04,472: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:04,673: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:04,912: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:04,912: INFO: services.background_task: arbitrage for XRP TRX
+2025-02-19 23:24:04,912: INFO: services.background_task: 1.001003600360036
+2025-02-19 23:24:05,130: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:05,536: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8679626.2
+2025-02-19 23:24:05,536: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:24:05,536: INFO: models.position: current : 0.01
+2025-02-19 23:24:05,536: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:24:05,694: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.01
+2025-02-19 23:24:05,694: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:24:05,694: INFO: models.position: current : 0.01
+2025-02-19 23:24:05,695: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:24:36,797: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:36,997: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:37,186: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:37,391: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:37,593: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:37,789: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:38,009: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:38,265: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:38,497: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:38,718: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:38,921: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:39,119: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:39,342: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:39,547: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:39,746: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:39,963: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:40,150: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:40,345: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:40,549: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:40,550: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:24:40,550: INFO: services.background_task: 1.0015877968814817
+2025-02-19 23:24:40,753: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:40,945: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:41,159: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:41,425: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:41,608: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:41,826: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:42,050: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:42,257: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:42,462: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:42,629: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:42,801: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:42,997: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:43,207: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:43,379: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:43,582: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:43,802: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:44,342: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:44,561: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:44,759: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:44,957: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:45,266: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:45,435: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:45,611: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:45,800: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:46,026: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:46,227: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:46,228: INFO: services.background_task: arbitrage for XRP TRX
+2025-02-19 23:24:46,228: INFO: services.background_task: 1.001003600360036
+2025-02-19 23:24:46,455: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:24:46,817: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8689369.6
+2025-02-19 23:24:46,817: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:24:46,817: INFO: models.position: current : 0.01
+2025-02-19 23:24:46,817: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:24:46,997: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.01
+2025-02-19 23:24:46,997: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:24:46,997: INFO: models.position: current : 0.01
+2025-02-19 23:24:46,997: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:25:18,016: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:18,232: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:18,457: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:18,667: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:18,915: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:19,101: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:19,289: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:19,486: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:19,671: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:19,944: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:20,123: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:20,314: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:20,513: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:20,726: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:20,946: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:21,155: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:21,347: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:21,524: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:21,755: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:21,755: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:25:21,756: INFO: services.background_task: 1.001731708991406
+2025-02-19 23:25:21,968: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:22,161: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:22,375: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:22,546: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:22,721: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:22,963: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:23,181: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:23,358: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:23,529: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:23,734: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:23,918: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:24,124: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:24,320: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:24,536: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:24,720: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:24,975: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:25,145: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:25,311: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:25,485: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:25,654: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:25,837: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:26,016: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:26,223: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:26,403: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:26,581: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:26,763: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:26,764: INFO: services.background_task: arbitrage for XRP TRX
+2025-02-19 23:25:26,764: INFO: services.background_task: 1.001003600360036
+2025-02-19 23:25:26,970: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:27,357: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8678864.5
+2025-02-19 23:25:27,357: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:25:27,357: INFO: models.position: current : 0.01
+2025-02-19 23:25:27,357: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:25:27,513: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.01
+2025-02-19 23:25:27,513: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:25:27,513: INFO: models.position: current : 0.01
+2025-02-19 23:25:27,513: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:25:58,641: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:58,825: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:59,000: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:59,191: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:59,375: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:59,565: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:59,754: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:25:59,970: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:00,155: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:00,354: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:00,532: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:00,723: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:00,916: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:01,105: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:01,329: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:01,515: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:01,698: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:01,925: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:02,115: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:02,115: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:26:02,115: INFO: services.background_task: 1.001793510795833
+2025-02-19 23:26:02,320: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:02,496: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:02,688: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:02,897: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:03,093: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:03,288: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:03,499: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:03,709: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:03,932: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:04,139: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:04,341: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:04,520: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:04,715: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:04,898: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:05,116: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:05,330: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:05,523: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:05,697: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:05,909: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:06,098: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:06,325: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:06,511: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:06,699: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:06,898: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:07,078: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:07,253: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:07,429: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:07,815: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8686282.8
+2025-02-19 23:26:07,815: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:26:07,815: INFO: models.position: current : 0.01
+2025-02-19 23:26:07,815: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:26:08,036: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.01
+2025-02-19 23:26:08,036: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:26:08,036: INFO: models.position: current : 0.01
+2025-02-19 23:26:08,036: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:26:39,137: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:39,310: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:39,495: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:39,677: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:39,896: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:40,142: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:40,346: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:40,513: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:40,704: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:40,908: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:41,078: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:41,258: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:41,438: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:41,615: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:41,802: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:42,027: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:42,201: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:42,405: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:42,598: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:42,598: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:26:42,598: INFO: services.background_task: 1.0016439586052457
+2025-02-19 23:26:42,858: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:43,035: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:43,206: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:43,417: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:43,696: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:43,901: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:44,093: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:44,282: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:44,464: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:44,642: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:44,813: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:44,972: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:45,147: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:45,373: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:45,558: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:45,737: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:45,957: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:46,141: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:46,323: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:46,496: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:46,702: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:46,865: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:47,065: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:47,241: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:47,416: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:47,602: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:47,777: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:26:48,166: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8678883.9
+2025-02-19 23:26:48,166: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:26:48,166: INFO: models.position: current : 0.01
+2025-02-19 23:26:48,166: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:26:48,320: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.01
+2025-02-19 23:26:48,320: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:26:48,320: INFO: models.position: current : 0.01
+2025-02-19 23:26:48,320: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:27:19,281: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:19,498: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:19,697: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:19,872: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:20,059: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:20,254: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:20,445: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:20,651: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:20,903: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:21,093: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:21,274: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:21,488: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:21,677: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:21,846: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:22,031: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:22,219: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:22,393: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:22,585: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:22,788: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:22,788: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:27:22,788: INFO: services.background_task: 1.0016792609844865
+2025-02-19 23:27:22,997: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:23,173: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:23,368: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:23,546: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:23,755: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:24,010: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:24,210: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:24,398: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:24,590: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:24,777: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:25,006: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:25,205: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:25,387: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:25,559: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:25,776: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:25,967: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:26,166: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:26,364: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:26,541: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:26,702: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:26,951: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:27,135: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:27,334: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:27,509: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:27,765: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:27,971: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:28,173: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:28,555: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8687547.8
+2025-02-19 23:27:28,555: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:27:28,555: INFO: models.position: current : 0.01
+2025-02-19 23:27:28,555: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:27:28,712: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.01
+2025-02-19 23:27:28,712: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:27:28,712: INFO: models.position: current : 0.01
+2025-02-19 23:27:28,712: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:27:59,675: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:27:59,854: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:00,040: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:00,229: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:00,419: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:00,620: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:00,838: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:01,049: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:01,241: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:01,435: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:01,631: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:01,815: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:01,987: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:02,181: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:02,382: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:02,560: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:02,733: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:02,973: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:03,157: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:03,158: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:28:03,158: INFO: services.background_task: 1.0016828962010254
+2025-02-19 23:28:03,360: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:03,524: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:03,757: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:03,951: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:04,153: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:04,365: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:04,551: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:04,755: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:04,977: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:05,170: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:05,357: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:05,548: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:05,724: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:05,892: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:06,076: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:06,270: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:06,459: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:06,629: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:06,801: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:07,028: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:07,228: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:07,405: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:07,608: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:07,802: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:07,994: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:08,177: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:08,177: INFO: services.background_task: arbitrage for XRP TRX
+2025-02-19 23:28:08,178: INFO: services.background_task: 1.0011206120612062
+2025-02-19 23:28:08,355: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:08,750: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8689388.0
+2025-02-19 23:28:08,750: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:28:08,750: INFO: models.position: current : 0.01
+2025-02-19 23:28:08,750: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:28:08,937: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.01
+2025-02-19 23:28:08,937: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:28:08,937: INFO: models.position: current : 0.01
+2025-02-19 23:28:08,937: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:28:39,953: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:40,132: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:40,327: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:40,524: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:40,699: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:40,942: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:41,123: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:41,293: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:41,475: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:41,655: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:41,823: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:42,009: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:42,211: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:42,386: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:42,574: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:42,751: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:42,953: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:43,152: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:43,331: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:43,332: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:28:43,332: INFO: services.background_task: 1.0015745034705137
+2025-02-19 23:28:43,530: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:43,713: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:43,893: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:44,056: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:44,241: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:44,414: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:44,598: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:44,794: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:45,015: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:45,222: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:45,412: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:45,590: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:45,778: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:45,937: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:46,115: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:46,282: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:46,472: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:46,651: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:46,920: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:47,116: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:47,284: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:47,448: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:47,637: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:47,824: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:48,012: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:48,200: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:48,200: INFO: services.background_task: arbitrage for XRP TRX
+2025-02-19 23:28:48,200: INFO: services.background_task: 1.0022268226822684
+2025-02-19 23:28:48,382: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:28:48,745: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8685900.2
+2025-02-19 23:28:48,745: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:28:48,745: INFO: models.position: current : 0.01
+2025-02-19 23:28:48,745: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:28:48,951: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.01
+2025-02-19 23:28:48,951: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:28:48,951: INFO: models.position: current : 0.01
+2025-02-19 23:28:48,951: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:29:20,557: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:20,789: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:21,056: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:21,254: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:21,469: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:21,653: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:21,873: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:22,048: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:22,247: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:22,442: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:22,609: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:22,800: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:22,981: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:23,148: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:23,345: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:23,538: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:23,720: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:23,952: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:24,129: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:24,129: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:29:24,129: INFO: services.background_task: 1.0014832083274072
+2025-02-19 23:29:24,334: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:24,553: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:24,752: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:24,923: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:25,123: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:25,324: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:25,510: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:25,695: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:25,910: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:26,107: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:26,291: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:26,473: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:26,664: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:26,842: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:27,057: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:27,255: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:27,436: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:27,611: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:27,803: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:28,042: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:28,237: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:28,476: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:28,655: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:28,849: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:29,039: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:29,233: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:29,233: INFO: services.background_task: arbitrage for XRP TRX
+2025-02-19 23:29:29,233: INFO: services.background_task: 1.0033330333033306
+2025-02-19 23:29:29,429: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:29:29,812: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8685640.0
+2025-02-19 23:29:29,812: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:29:29,812: INFO: models.position: current : 0.01
+2025-02-19 23:29:29,812: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:29:30,000: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.01
+2025-02-19 23:29:30,000: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:29:30,000: INFO: models.position: current : 0.01
+2025-02-19 23:29:30,000: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:30:00,908: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:01,077: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:01,319: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:01,478: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:01,673: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:01,886: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:02,086: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:02,288: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:02,457: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:02,622: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:02,787: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:02,980: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:03,204: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:03,388: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:03,571: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:03,771: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:04,001: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:04,162: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:04,368: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:04,368: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:30:04,368: INFO: services.background_task: 1.001633507053672
+2025-02-19 23:30:04,559: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:04,753: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:04,986: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:05,178: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:05,357: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:05,549: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:05,749: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:05,959: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:06,130: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:06,333: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:06,506: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:06,673: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:06,871: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:07,053: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:07,230: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:07,409: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:07,587: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:07,751: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:07,953: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:08,127: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:08,328: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:08,617: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:08,812: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:08,985: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:09,162: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:09,325: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:09,512: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:09,882: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8685640.0
+2025-02-19 23:30:09,883: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:30:09,883: INFO: models.position: current : 0.01
+2025-02-19 23:30:09,883: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:30:10,045: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.02
+2025-02-19 23:30:10,045: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:30:10,045: INFO: models.position: current : 0.01
+2025-02-19 23:30:10,045: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:30:40,992: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:41,174: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:41,375: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:41,549: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:41,737: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:41,953: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:42,146: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:42,308: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:42,514: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:42,713: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:42,889: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:43,063: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:43,247: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:43,454: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:43,617: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:43,786: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:44,001: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:44,168: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:44,341: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:44,341: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:30:44,341: INFO: services.background_task: 1.0013609261936467
+2025-02-19 23:30:44,816: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:44,991: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:45,188: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:45,373: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:45,541: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:45,722: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:45,981: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:46,224: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:46,400: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:46,570: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:46,768: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:46,936: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:47,127: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:47,325: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:47,503: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:47,669: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:47,881: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:48,107: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:48,290: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:48,473: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:48,646: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:48,824: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:48,989: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:49,171: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:49,342: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:49,515: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:49,683: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:30:50,053: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8676015.1
+2025-02-19 23:30:50,053: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:30:50,053: INFO: models.position: current : 0.01
+2025-02-19 23:30:50,053: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:30:50,184: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.05
+2025-02-19 23:30:50,184: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:30:50,184: INFO: models.position: current : 0.01
+2025-02-19 23:30:50,184: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:31:21,159: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:21,351: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:21,523: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:21,716: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:21,955: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:22,157: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:22,367: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:22,564: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:22,774: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:22,996: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:23,175: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:23,361: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:23,550: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:23,734: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:23,945: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:24,144: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:24,339: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:24,534: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:24,706: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:24,706: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:31:24,707: INFO: services.background_task: 1.0013770206653463
+2025-02-19 23:31:24,878: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:25,067: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:25,283: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:25,465: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:25,659: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:25,871: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:26,081: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:26,282: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:26,461: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:26,657: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:26,857: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:27,038: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:27,234: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:27,413: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:27,587: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:27,781: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:27,995: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:28,170: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:28,339: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:28,507: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:28,676: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:28,837: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:29,018: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:29,186: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:29,365: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:29,535: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:29,731: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:31:30,153: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8675324.3
+2025-02-19 23:31:30,153: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:31:30,153: INFO: models.position: current : 0.01
+2025-02-19 23:31:30,153: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:31:30,295: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.05
+2025-02-19 23:31:30,295: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:31:30,295: INFO: models.position: current : 0.01
+2025-02-19 23:31:30,295: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:32:01,387: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:01,581: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:01,785: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:01,969: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:02,162: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:02,354: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:02,534: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:02,719: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:02,927: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:03,122: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:03,311: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:03,487: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:03,678: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:03,853: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:04,056: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:04,247: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:04,438: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:04,657: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:04,885: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:04,886: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:32:04,886: INFO: services.background_task: 1.0016180097980236
+2025-02-19 23:32:05,099: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:05,312: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:05,526: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:05,716: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:05,924: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:06,108: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:06,289: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:06,477: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:06,659: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:06,918: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:07,084: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:07,272: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:07,448: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:07,637: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:07,821: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:08,018: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:08,204: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:08,423: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:08,601: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:08,784: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:08,983: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:09,205: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:09,372: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:09,551: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:09,813: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:09,993: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:10,184: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:10,544: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8678743.5
+2025-02-19 23:32:10,544: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:32:10,544: INFO: models.position: current : 0.01
+2025-02-19 23:32:10,544: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:32:10,680: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.05
+2025-02-19 23:32:10,680: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:32:10,680: INFO: models.position: current : 0.01
+2025-02-19 23:32:10,680: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:32:41,667: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:41,844: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:42,038: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:42,215: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:42,419: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:42,624: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:42,886: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:43,120: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:43,325: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:43,556: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:43,775: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:43,980: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:44,212: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:44,413: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:44,637: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:44,913: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:45,095: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:45,286: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:45,525: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:45,525: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:32:45,525: INFO: services.background_task: 1.0014458766115437
+2025-02-19 23:32:45,719: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:45,925: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:46,138: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:46,331: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:46,537: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:46,738: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:46,974: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:47,150: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:47,336: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:47,529: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:47,708: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:47,871: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:48,037: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:48,206: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:48,375: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:48,564: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:48,730: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:48,928: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:49,113: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:49,289: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:49,467: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:49,632: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:49,809: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:50,005: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:50,181: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:50,346: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:50,535: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:32:50,908: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8673000.0
+2025-02-19 23:32:50,909: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:32:50,909: INFO: models.position: current : 0.01
+2025-02-19 23:32:50,909: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:32:51,055: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.05
+2025-02-19 23:32:51,055: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:32:51,055: INFO: models.position: current : 0.01
+2025-02-19 23:32:51,055: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:33:21,978: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:22,152: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:22,336: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:22,505: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:22,741: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:22,957: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:23,130: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:23,327: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:23,508: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:23,713: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:23,913: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:24,142: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:24,343: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:24,529: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:24,755: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:24,984: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:25,160: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:25,354: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:25,541: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:25,541: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:33:25,541: INFO: services.background_task: 1.0018633335477791
+2025-02-19 23:33:25,756: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:25,960: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:26,144: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:26,323: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:26,516: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:26,708: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:26,919: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:27,094: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:27,271: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:27,464: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:27,631: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:27,812: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:27,990: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:28,208: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:28,412: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:28,601: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:28,771: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:28,988: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:29,177: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:29,346: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:29,531: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:29,721: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:29,891: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:30,068: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:30,261: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:30,447: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:30,653: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:33:31,035: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8660769.1
+2025-02-19 23:33:31,035: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:33:31,035: INFO: models.position: current : 0.01
+2025-02-19 23:33:31,035: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:33:31,197: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.05
+2025-02-19 23:33:31,197: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:33:31,197: INFO: models.position: current : 0.01
+2025-02-19 23:33:31,197: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:34:02,213: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:02,394: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:02,564: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:02,729: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:02,952: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:03,133: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:03,315: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:03,491: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:03,679: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:03,868: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:04,047: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:04,223: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:04,405: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:04,583: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:04,766: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:04,988: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:05,182: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:05,354: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:05,547: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:05,547: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:34:05,547: INFO: services.background_task: 1.00158008243917
+2025-02-19 23:34:05,738: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:05,912: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:06,101: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:06,300: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:06,506: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:06,692: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:06,951: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:07,143: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:07,378: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:07,580: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:07,824: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:07,988: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:08,155: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:08,314: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:08,510: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:08,702: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:08,905: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:09,081: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:09,286: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:09,479: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:09,723: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:09,930: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:10,152: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:10,349: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:10,550: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:10,751: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:11,039: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:11,406: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8659409.0
+2025-02-19 23:34:11,406: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:34:11,406: INFO: models.position: current : 0.01
+2025-02-19 23:34:11,406: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:34:11,569: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.0
+2025-02-19 23:34:11,570: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:34:11,570: INFO: models.position: current : 0.01
+2025-02-19 23:34:11,570: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:34:42,666: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:42,882: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:43,075: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:43,279: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:43,507: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:43,727: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:43,952: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:44,133: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:44,331: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:44,539: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:44,721: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:45,207: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:45,418: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:45,602: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:45,778: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:45,983: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:46,155: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:46,344: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:46,545: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:46,545: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:34:46,545: INFO: services.background_task: 1.0002891954598718
+2025-02-19 23:34:46,766: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:46,940: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:47,133: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:47,310: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:47,476: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:47,656: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:47,877: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:48,054: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:48,235: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:48,419: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:48,595: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:48,784: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:48,966: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:49,225: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:49,414: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:49,602: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:49,770: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:50,036: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:50,222: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:50,387: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:50,593: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:50,809: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:50,997: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:51,187: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:51,396: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:51,608: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:51,808: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:34:52,259: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8677520.8
+2025-02-19 23:34:52,259: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:34:52,259: INFO: models.position: current : 0.01
+2025-02-19 23:34:52,259: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:34:52,429: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.02
+2025-02-19 23:34:52,429: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:34:52,429: INFO: models.position: current : 0.01
+2025-02-19 23:34:52,429: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:35:23,348: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:23,559: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:23,723: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:23,902: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:24,092: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:24,260: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:24,449: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:24,664: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:24,911: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:25,098: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:25,363: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:25,576: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:25,769: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:25,972: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:26,155: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:26,361: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:26,523: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:26,705: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:26,920: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:27,109: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:27,290: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:27,484: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:27,668: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:27,864: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:28,029: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:28,200: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:28,380: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:28,572: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:28,759: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:28,973: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:29,148: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:29,370: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:29,561: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:29,740: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:29,914: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:30,094: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:30,271: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:30,470: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:30,648: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:30,887: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:31,093: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:31,273: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:31,457: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:31,644: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:31,836: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:32,020: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:35:32,380: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8661500.0
+2025-02-19 23:35:32,380: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:35:32,380: INFO: models.position: current : 0.01
+2025-02-19 23:35:32,380: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:35:32,529: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.02
+2025-02-19 23:35:32,529: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:35:32,529: INFO: models.position: current : 0.01
+2025-02-19 23:35:32,529: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:36:03,653: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:03,837: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:04,064: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:04,250: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:04,438: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:04,617: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:04,802: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:05,013: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:05,203: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:05,392: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:05,585: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:05,768: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:05,952: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:06,127: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:06,310: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:06,484: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:06,646: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:06,907: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:07,094: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:07,094: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:36:07,095: INFO: services.background_task: 1.0009323576992044
+2025-02-19 23:36:07,279: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:07,453: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:07,645: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:07,818: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:07,992: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:08,171: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:08,358: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:08,562: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:08,749: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:08,971: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:09,164: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:09,341: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:09,525: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:09,700: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:09,884: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:10,056: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:10,290: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:10,473: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:10,651: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:10,888: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:11,078: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:11,256: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:11,422: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:11,611: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:11,796: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:11,987: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:12,180: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:12,531: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8667654.6
+2025-02-19 23:36:12,531: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:36:12,531: INFO: models.position: current : 0.01
+2025-02-19 23:36:12,531: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:36:12,691: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.02
+2025-02-19 23:36:12,691: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:36:12,691: INFO: models.position: current : 0.01
+2025-02-19 23:36:12,691: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:36:43,834: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:44,105: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:44,467: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:44,727: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:45,062: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:45,343: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:45,671: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:45,957: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:46,250: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:46,535: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:46,797: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:47,101: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:47,372: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:47,678: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:47,953: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:48,258: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:48,533: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:48,793: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:49,103: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:49,103: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:36:49,103: INFO: services.background_task: 1.000928100899478
+2025-02-19 23:36:49,380: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:49,665: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:49,965: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:50,281: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:50,966: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:51,259: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:51,561: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:51,830: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:52,049: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:52,304: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:52,566: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:52,807: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:53,117: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:53,419: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:53,674: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:53,917: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:54,191: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:54,418: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:54,705: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:54,991: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:55,279: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:55,573: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:55,827: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:56,147: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:56,405: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:56,678: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:57,008: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:36:57,455: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8664090.0
+2025-02-19 23:36:57,456: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:36:57,456: INFO: models.position: current : 0.01
+2025-02-19 23:36:57,456: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:36:57,679: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.02
+2025-02-19 23:36:57,679: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:36:57,679: INFO: models.position: current : 0.01
+2025-02-19 23:36:57,679: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:37:28,651: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:28,820: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:28,996: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:29,190: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:29,358: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:29,598: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:29,787: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:29,986: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:30,177: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:30,355: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:30,538: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:30,722: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:30,928: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:31,183: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:31,386: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:31,586: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:31,813: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:32,092: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:32,277: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:32,277: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:37:32,278: INFO: services.background_task: 1.000983378550929
+2025-02-19 23:37:32,483: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:32,696: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:32,912: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:33,121: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:33,304: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:33,530: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:33,742: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:33,985: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:34,207: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:34,456: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:34,715: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:34,911: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:35,100: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:35,310: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:35,492: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:35,655: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:35,867: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:36,070: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:36,255: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:36,445: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:36,634: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:36,847: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:37,026: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:37,277: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:37,465: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:37,658: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:37,859: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:37:38,179: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8669661.2
+2025-02-19 23:37:38,179: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:37:38,179: INFO: models.position: current : 0.01
+2025-02-19 23:37:38,179: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:37:38,301: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.02
+2025-02-19 23:37:38,301: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:37:38,301: INFO: models.position: current : 0.01
+2025-02-19 23:37:38,301: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:38:09,439: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:09,612: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:09,809: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:10,023: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:10,277: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:10,491: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:10,731: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:11,435: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:11,767: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:12,061: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:12,253: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:12,461: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:12,707: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:12,975: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:13,171: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:13,389: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:13,578: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:13,808: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:14,015: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:14,016: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:38:14,016: INFO: services.background_task: 1.0008547067429239
+2025-02-19 23:38:14,179: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:14,360: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:14,564: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:14,730: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:14,928: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:15,109: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:15,306: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:15,508: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:15,694: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:15,894: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:16,071: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:16,237: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:16,427: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:16,602: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:16,776: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:16,985: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:17,158: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:17,323: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:17,507: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:17,699: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:17,865: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:18,049: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:18,225: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:18,448: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:18,629: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:18,788: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:19,066: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:19,561: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8669661.2
+2025-02-19 23:38:19,561: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:38:19,561: INFO: models.position: current : 0.01
+2025-02-19 23:38:19,561: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:38:19,699: INFO: models.position: TRXINR Earlier trigger:  None, latest price:22.02
+2025-02-19 23:38:19,699: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:38:19,699: INFO: models.position: current : 0.01
+2025-02-19 23:38:19,699: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:38:50,876: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:51,050: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:51,224: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:51,390: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:51,581: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:51,773: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:51,988: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:52,177: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:52,490: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:52,668: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:52,935: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:53,238: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:53,524: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:53,783: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:54,073: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:54,314: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:54,491: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:54,696: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:54,918: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:54,918: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:38:54,919: INFO: services.background_task: 1.000851161470379
+2025-02-19 23:38:55,337: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:55,644: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:55,969: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:56,193: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:56,397: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:56,595: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:56,815: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:57,128: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:57,358: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:57,589: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:57,782: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:58,012: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:58,228: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:58,407: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:58,585: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:58,783: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:58,969: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:59,175: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:59,340: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:59,494: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:59,666: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:38:59,869: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:00,050: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:00,242: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:00,428: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:00,615: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:00,801: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:01,152: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8663636.5
+2025-02-19 23:39:01,152: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:39:01,152: INFO: models.position: current : 0.01
+2025-02-19 23:39:01,152: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:39:01,312: INFO: models.position: TRXINR Earlier trigger:  None, latest price:21.93
+2025-02-19 23:39:01,312: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:39:01,312: INFO: models.position: current : 0.01
+2025-02-19 23:39:01,312: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:39:32,291: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:32,464: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:32,635: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:32,806: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:33,014: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:33,194: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:33,395: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:33,570: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:33,742: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:33,958: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:34,149: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:34,339: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:34,526: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:34,728: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:34,905: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:35,084: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:35,257: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:35,435: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:35,626: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:35,626: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:39:35,627: INFO: services.background_task: 1.0007288905361051
+2025-02-19 23:39:35,821: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:36,050: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:36,224: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:36,414: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:36,607: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:36,783: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:36,960: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:37,147: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:37,352: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:37,549: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:37,691: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:37,895: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:38,069: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:38,243: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:38,415: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:38,627: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:38,790: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:38,970: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:39,135: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:39,270: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:39,441: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:39,636: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:39,806: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:40,024: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:40,203: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:40,383: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:40,383: INFO: services.background_task: arbitrage for XRP TRX
+2025-02-19 23:39:40,383: INFO: services.background_task: 1.0010820929183581
+2025-02-19 23:39:40,565: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:39:41,025: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8662766.1
+2025-02-19 23:39:41,025: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:39:41,025: INFO: models.position: current : 0.01
+2025-02-19 23:39:41,025: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:39:41,162: INFO: models.position: TRXINR Earlier trigger:  None, latest price:21.93
+2025-02-19 23:39:41,162: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:39:41,162: INFO: models.position: current : 0.01
+2025-02-19 23:39:41,162: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:40:12,153: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:12,740: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:12,965: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:13,138: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:13,305: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:13,480: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:13,660: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:13,849: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:14,025: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:14,250: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:14,429: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:14,596: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:14,788: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:14,995: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:15,194: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:15,385: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:15,561: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:15,758: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:15,959: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:15,960: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:40:15,960: INFO: services.background_task: 1.0008384928037162
+2025-02-19 23:40:16,137: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:16,330: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:16,543: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:16,746: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:16,960: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:17,142: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:17,339: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:17,502: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:17,677: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:17,854: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:18,023: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:18,190: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:18,361: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:18,532: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:18,699: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:18,914: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:19,082: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:19,318: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:19,517: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:19,766: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:19,940: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:20,143: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:20,331: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:20,513: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:20,780: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:21,024: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:21,025: INFO: services.background_task: arbitrage for XRP TRX
+2025-02-19 23:40:21,025: INFO: services.background_task: 1.0010820929183581
+2025-02-19 23:40:21,222: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:21,682: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8661508.0
+2025-02-19 23:40:21,682: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:40:21,682: INFO: models.position: current : 0.01
+2025-02-19 23:40:21,682: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:40:21,830: INFO: models.position: TRXINR Earlier trigger:  None, latest price:21.93
+2025-02-19 23:40:21,830: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:40:21,830: INFO: models.position: current : 0.01
+2025-02-19 23:40:21,830: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:40:52,718: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:52,904: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:53,067: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:53,237: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:53,427: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:53,600: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:53,802: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:54,038: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:54,216: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:54,411: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:54,615: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:54,802: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:54,997: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:55,229: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:55,411: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:55,623: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:55,801: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:56,004: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:56,186: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:56,186: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:40:56,186: INFO: services.background_task: 1.0010114734675901
+2025-02-19 23:40:56,368: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:56,564: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:56,754: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:56,920: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:57,150: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:57,333: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:57,524: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:57,696: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:57,918: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:58,088: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:58,277: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:58,501: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:58,673: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:58,850: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:59,024: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:59,207: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:59,383: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:59,557: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:59,729: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:40:59,929: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:00,095: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:00,257: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:00,437: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:00,602: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:00,777: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:00,971: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:00,971: INFO: services.background_task: arbitrage for XRP TRX
+2025-02-19 23:41:00,971: INFO: services.background_task: 1.0010820929183581
+2025-02-19 23:41:01,147: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:01,477: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8661508.0
+2025-02-19 23:41:01,477: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:41:01,477: INFO: models.position: current : 0.01
+2025-02-19 23:41:01,477: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:41:01,629: INFO: models.position: TRXINR Earlier trigger:  None, latest price:21.93
+2025-02-19 23:41:01,629: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:41:01,629: INFO: models.position: current : 0.01
+2025-02-19 23:41:01,629: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:41:32,687: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:32,927: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:33,141: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:33,345: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:33,553: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:33,772: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:34,059: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:34,281: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:34,505: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:34,763: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:34,980: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:35,166: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:35,387: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:35,634: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:35,883: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:36,081: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:36,297: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:36,531: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:36,734: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:36,735: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:41:36,736: INFO: services.background_task: 1.0008439088459677
+2025-02-19 23:41:36,944: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:37,169: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:37,349: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:37,545: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:37,736: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:37,983: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:38,190: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:38,397: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:38,615: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:38,817: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:39,015: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:39,232: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:39,533: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:39,719: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:39,934: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:40,153: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:40,319: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:40,545: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:40,754: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:40,990: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:41,206: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:41,434: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:41,633: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:41,875: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:42,088: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:42,316: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:42,317: INFO: services.background_task: arbitrage for XRP TRX
+2025-02-19 23:41:42,317: INFO: services.background_task: 1.0021821831303561
+2025-02-19 23:41:42,512: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:41:43,104: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8661500.0
+2025-02-19 23:41:43,104: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:41:43,104: INFO: models.position: current : 0.01
+2025-02-19 23:41:43,104: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:41:43,246: INFO: models.position: TRXINR Earlier trigger:  None, latest price:21.93
+2025-02-19 23:41:43,246: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:41:43,246: INFO: models.position: current : 0.01
+2025-02-19 23:41:43,246: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:42:14,309: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:14,513: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:14,751: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:14,961: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:15,198: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:15,410: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:15,645: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:15,858: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:16,064: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:16,260: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:16,482: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:16,702: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:16,954: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:17,160: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:17,371: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:17,607: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:17,893: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:18,108: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:18,337: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:18,337: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:42:18,337: INFO: services.background_task: 1.0006303087389496
+2025-02-19 23:42:18,564: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:18,773: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:18,981: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:19,177: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:19,418: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:19,609: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:19,880: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:20,105: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:20,341: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:20,573: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:20,786: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:20,993: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:21,262: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:21,488: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:21,669: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:21,924: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:22,098: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:22,313: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:22,506: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:22,739: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:22,943: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:23,186: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:23,392: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:23,596: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:23,865: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:24,067: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:24,265: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:24,683: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8662603.4
+2025-02-19 23:42:24,683: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:42:24,683: INFO: models.position: current : 0.01
+2025-02-19 23:42:24,683: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:42:24,842: INFO: models.position: TRXINR Earlier trigger:  None, latest price:21.93
+2025-02-19 23:42:24,842: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:42:24,842: INFO: models.position: current : 0.01
+2025-02-19 23:42:24,842: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:42:55,770: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:55,957: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:56,131: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:56,319: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:56,480: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:56,666: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:56,907: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:57,092: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:57,269: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:57,443: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:57,630: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:57,824: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:58,018: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:58,211: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:58,462: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:58,726: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:59,028: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:59,238: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:59,473: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:59,473: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:42:59,473: INFO: services.background_task: 1.0004718010054927
+2025-02-19 23:42:59,669: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:42:59,883: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:00,134: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:00,396: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:00,767: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:01,064: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:01,288: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:01,502: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:01,751: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:01,967: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:02,141: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:02,322: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:02,561: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:02,784: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:03,033: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:03,246: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:03,456: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:03,680: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:03,907: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:04,113: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:04,280: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:04,535: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:04,765: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:04,991: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:05,213: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:05,406: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:05,620: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:06,041: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8653497.2
+2025-02-19 23:43:06,041: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:43:06,041: INFO: models.position: current : 0.01
+2025-02-19 23:43:06,041: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:43:06,479: INFO: models.position: TRXINR Earlier trigger:  None, latest price:21.93
+2025-02-19 23:43:06,479: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:43:06,479: INFO: models.position: current : 0.01
+2025-02-19 23:43:06,479: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:43:37,467: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:37,673: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:37,894: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:38,069: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:38,304: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:38,493: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:38,698: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:38,936: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:39,155: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:39,370: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:39,600: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:39,814: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:40,060: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:40,264: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:40,467: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:40,715: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:40,969: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:41,187: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:41,412: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:41,412: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:43:41,412: INFO: services.background_task: 1.0006095925101086
+2025-02-19 23:43:41,634: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:41,867: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:42,103: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:42,327: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:42,544: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:42,735: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:42,950: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:43,167: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:43,411: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:43,644: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:43,867: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:44,073: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:44,285: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:44,487: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:44,725: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:44,974: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:45,290: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:45,498: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:45,722: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:45,948: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:46,168: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:46,387: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:46,596: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:46,808: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:47,034: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:47,262: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:47,262: INFO: services.background_task: arbitrage for XRP TRX
+2025-02-19 23:43:47,262: INFO: services.background_task: 1.0018132611637347
+2025-02-19 23:43:47,458: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:43:47,796: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8659000.8
+2025-02-19 23:43:47,796: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:43:47,796: INFO: models.position: current : 0.01
+2025-02-19 23:43:47,796: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:43:47,955: INFO: models.position: TRXINR Earlier trigger:  None, latest price:21.93
+2025-02-19 23:43:47,955: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:43:47,955: INFO: models.position: current : 0.01
+2025-02-19 23:43:47,955: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:44:18,925: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:19,162: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:19,382: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:19,558: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:19,742: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:19,990: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:20,181: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:20,375: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:20,605: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:20,796: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:21,026: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:21,250: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:21,444: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:21,641: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:21,882: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:22,099: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:22,362: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:22,561: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:22,779: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:22,780: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:44:22,780: INFO: services.background_task: 1.0002461474320774
+2025-02-19 23:44:22,966: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:23,181: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:23,383: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:23,566: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:23,781: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:24,039: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:24,259: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:24,499: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:24,690: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:24,912: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:25,135: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:25,326: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:25,533: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:25,751: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:26,009: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:26,233: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:26,469: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:26,684: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:27,022: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:27,235: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:27,413: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:27,612: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:27,808: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:28,054: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:28,243: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:28,485: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:28,485: INFO: services.background_task: arbitrage for XRP TRX
+2025-02-19 23:44:28,485: INFO: services.background_task: 1.0007171853856562
+2025-02-19 23:44:28,661: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:44:29,046: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8650000.0
+2025-02-19 23:44:29,046: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:44:29,046: INFO: models.position: current : 0.01
+2025-02-19 23:44:29,046: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:44:29,208: INFO: models.position: TRXINR Earlier trigger:  None, latest price:21.93
+2025-02-19 23:44:29,208: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:44:29,208: INFO: models.position: current : 0.01
+2025-02-19 23:44:29,209: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:45:00,364: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:00,580: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:00,802: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:00,977: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:01,237: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:01,454: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:01,661: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:01,948: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:02,158: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:02,380: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:02,615: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:02,804: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:03,010: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:03,227: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:03,464: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:03,677: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:03,965: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:04,175: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:04,376: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:04,376: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:45:04,392: INFO: services.background_task: 1.0004723462648584
+2025-02-19 23:45:04,641: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:04,853: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:05,076: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:05,284: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:05,508: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:05,716: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:05,970: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:06,193: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:06,404: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:06,643: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:06,862: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:07,110: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:07,276: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:07,531: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:07,751: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:08,005: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:08,197: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:08,419: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:08,642: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:08,883: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:09,113: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:09,325: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:09,563: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:09,787: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:10,122: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:10,310: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:10,310: INFO: services.background_task: arbitrage for XRP TRX
+2025-02-19 23:45:10,310: INFO: services.background_task: 1.0007171853856562
+2025-02-19 23:45:10,533: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:10,884: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8650000.0
+2025-02-19 23:45:10,884: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:45:10,884: INFO: models.position: current : 0.01
+2025-02-19 23:45:10,884: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:45:11,042: INFO: models.position: TRXINR Earlier trigger:  None, latest price:21.93
+2025-02-19 23:45:11,042: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:45:11,042: INFO: models.position: current : 0.01
+2025-02-19 23:45:11,042: INFO: models.position: cost tracking 22.553299999999997
+2025-02-19 23:45:42,116: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:42,351: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:42,577: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:42,845: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:43,093: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:43,347: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:43,573: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:43,792: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:44,020: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:44,253: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:44,460: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:44,699: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:44,970: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:45,177: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:45,403: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:45,640: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:45,912: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:46,132: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:46,348: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:46,348: INFO: services.background_task: arbitrage for USDT BTC
+2025-02-19 23:45:46,353: INFO: services.background_task: 1.000500229736775
+2025-02-19 23:45:46,560: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:46,816: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:47,070: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:47,308: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:47,515: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:47,742: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:47,982: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:48,184: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:48,434: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:48,641: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:48,905: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:49,104: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:49,342: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:49,563: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:50,105: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:50,328: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:50,544: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:50,757: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:51,086: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:51,318: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:51,586: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:51,852: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:52,154: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:52,378: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:52,569: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:52,824: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:52,824: INFO: services.background_task: arbitrage for XRP TRX
+2025-02-19 23:45:52,824: INFO: services.background_task: 1.0007171853856562
+2025-02-19 23:45:53,079: INFO: services.background_task: entered min possible quantity check
+2025-02-19 23:45:53,461: INFO: models.position: BTCINR Earlier trigger:  None, latest price:8650000.0
+2025-02-19 23:45:53,461: INFO: models.position: the total transaction cost for BTCINR is 0.0
+2025-02-19 23:45:53,461: INFO: models.position: current : 0.01
+2025-02-19 23:45:53,461: INFO: models.position: cost tracking 8857373.27195
+2025-02-19 23:45:53,637: INFO: models.position: TRXINR Earlier trigger:  None, latest price:21.93
+2025-02-19 23:45:53,637: INFO: models.position: the total transaction cost for TRXINR is 0.0
+2025-02-19 23:45:53,637: INFO: models.position: current : 0.01
+2025-02-19 23:45:53,637: INFO: models.position: cost tracking 22.553299999999997
