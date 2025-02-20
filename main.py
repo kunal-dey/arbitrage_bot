@@ -40,13 +40,6 @@ async def start_process():
     app.add_background_task(background_task)
     return {"message": "Background process started"}
 
-@app.get("/stop")
-async def stop_process():
-    for currency in context.user_balance():
-        currency_name = currency.get("currency")
-        currency_balance = currency.get("balance")
-    return {"message": context.user_balance()}
-
 
 if __name__ == "__main__":
     app.run(port=8081)

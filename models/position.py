@@ -47,7 +47,7 @@ class Position:
             selling_price = self.position_price
 
         # this handles the B part
-        tx_cost = 0
+        tx_cost = (25 / 900) * buy_price
 
         logger.info(f"the total transaction cost for {self.crypto.crypto_name} is {tx_cost * self.quantity}")
 
