@@ -22,8 +22,9 @@ class Account:
     positions: dict[str, Position] = field(default_factory=dict, init=False)
     available_cash: float = field(default_factory=get_available_cash)
     starting_cash: float = field(default_factory=get_available_cash)
+    cryptos_to_add: dict = field(default_factory=dict, init=False)
 
-    def add_crypto(self, cryptos_to_add):
+    def add_crypto(self):
         """
         if it satisfies all the buying criteria then it buys the stock
         :return: None
@@ -32,11 +33,21 @@ class Account:
 
         # adding cryptos to the cryptos_to_track
         for currency in context.user_balance():
-            if currency.get("currency") != "INR" and f"{currency.get("currency")}INR" not in self.cryptos_to_track.keys() and currency.get("balance") > 0:
-                crypto = Crypto(crypto_name=f"{currency.get("currency")}INR")
-                crypto.quantity = currency.get("balance")
-                crypto.buy_price = cryptos_to_add[crypto.crypto_name]
-                self.cryptos_to_track[crypto.crypto_name] = crypto
+            if currency.get("currency") != "INR"  and currency.get("balance") > 0:
+                if f"{currency.get("currency")}INR" not in self.cryptos_to_track.keys():
+                    crypto = Crypto(crypto_name=f"{currency.get("currency")}INR")
+                    crypto.quantity = currency.get("balance")
+                    try:
+                        crypto.buy_price = self.cryptos_to_add[crypto.crypto_name]
+                        del self.cryptos_to_add[crypto.crypto_name]
+                        self.cryptos_to_track[crypto.crypto_name] = crypto
+                    except:
+                        logger.info(f"Crypto {crypto.crypto_name} not found, skipping")
+                else:
+                    # update the quantity
+                    self.cryptos_to_track[f"{currency.get("currency")}INR"].quantity = currency.get("balance")
+                    self.positions[f"{currency.get("currency")}INR"].quantity = currency.get("balance")
+                    self.positions[f"{currency.get("currency")}INR"].crypto = self.cryptos_to_track[f"{currency.get("currency")}INR"]
 
 
         # adding them as position

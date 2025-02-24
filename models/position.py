@@ -1,3 +1,5 @@
+import pandas as pd
+
 from constants.dcx_contexts import context
 from models.crypto import Crypto
 from dataclasses import dataclass, field
@@ -89,8 +91,12 @@ class Position:
         # this has been done because if there is error while selling it still says it sold
         # suppose the crypto is not even bought but still it tries to sell in that case it may fail
 
-        logger.info(f"Selling {self.crypto.crypto_name} at {self.current_price} Quantity:{self.quantity}")
-        context.create_order(PositionType.SHORT, self.crypto.crypto_name, self.crypto.quantity)
+        price_df = pd.DataFrame(context.get_current_prices())[["market", "ask", "bid"]]
+        price_df.set_index("market", inplace=True)
+        selling_price = float(price_df.loc[self.crypto.crypto_name]["bid"]) / 1.005
+
+        logger.info(f"Selling {self.crypto.crypto_name} at {selling_price} Quantity:{self.quantity}")
+        context.create_order(PositionType.SHORT, self.crypto.crypto_name, self.crypto.quantity, selling_price, order_type="limit_order")
 
         return True
 
